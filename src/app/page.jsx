@@ -4,9 +4,12 @@ export default function Home() {
   return (
     <>
       <h1>Welcome to Next.js!</h1>
-      <img
-        src="https://imgur.com/a/sg8imtv"
-        className="h-60 w-20 ml-8"
+      <br />
+      <Image
+        src="/chobitest.png" // Relative path to the image
+        width={300} // Replace with actual width of the image
+        height={500} // Replace with actual height of the image
+        className="ml-8"
         alt="Dynamic Island"
       />
     </>
